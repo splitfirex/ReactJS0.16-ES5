@@ -1,12 +1,12 @@
-Minimal React
+Minimal React 0.16 version ECMAScript 5
 =============
-This is a template for building React.js web apps **without browserify, babel, and JSX**.
+This is a template for building React.js web apps without a Node.js server
+With JSX and Babel embebed in browser
 
-## Installation
+## Installation ##
 
-**No installation required!** Just clone the repo (or download the files as zip) and open `index.html` in the browser
+Just download and execute a simple webserver on root.
 
-## Projects using Minimal React
-* [shinglyu/github-dashboard](https://shinglyu.github.io/github-dashboard/)
-* [yodalee/github-bbs](https://yodalee.github.io/github-bbs.html)
+## Checked compatible Browsers ##
+IE11+, Edge, Chrome 23+, FF 21+
 
