@@ -6,15 +6,13 @@
     <title></title>
   </head>
   <body>
-    <div id="content"></div>
-
-    <!-- For production
-    <script src="https://fb.me/react-0.14.7.min.js"></script>
-    <script src="https://fb.me/react-dom-0.14.7.min.js"></script>
-    -->
-    <script src="https://fb.me/react-0.14.7.js"></script>
-    <script src="https://fb.me/react-dom-0.14.7.js"></script>
-    <script src="js/helloWorldComponents.js"></script>
-    <script src="js/main.js"></script>
+    <div id="root"></div>
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script crossorigin src="js/lib/create-react-class.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <script type="text/babel" src="js/component/component1.js"></script>
+    <script type="text/babel" src="js/component/component2.js"></script>
+    <script type="text/babel" src="js/main.js"></script>
   </body>
 </html>
